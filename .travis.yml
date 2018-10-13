@@ -3,11 +3,12 @@
 language: R
 sudo: false
 cache: packages
+warnings_are_errors: true
 
 os:
-  linux
-  osx
+  - linux
+  - osx
 
 r:
-  release
-  3.5
+  - release
+  - 3.5
