@@ -7,11 +7,11 @@
 #' @export
 #'
 #' @examples
-#' hello("Zech")
+#' hellox("Zech")
 #' \dontrun{
-#' hello("Rose")
+#' hellox("Rose")
 #' }
 
-hello <- function(x) {
-  print(paste0("Hello, ", x, "Welcome to the world of CI/CD!"))
+hellox <- function(x) {
+  print(paste0("Hello, ", x, "! Welcome to the world of CI/CD!"))
 }
