@@ -1,6 +1,6 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/zekott/testrcicd?branch=master&svg=true)](https://ci.appveyor.com/project/zekott/testrcicd)
+[![Travis build status](https://travis-ci.org/zekott/testrcicd.svg?branch=master)](https://travis-ci.org/zekott/testrcicd) [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/zekott/testrcicd?branch=master&svg=true)](https://ci.appveyor.com/project/zekott/testrcicd)
 
 testrcicd
 =========

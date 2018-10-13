@@ -11,7 +11,6 @@
 #' \dontrun{
 #' hello("Rose")
 #' }
-#'
 
 hello <- function(x) {
   print(paste0("Hello, ", x, "Welcome to the world of CI/CD!"))
