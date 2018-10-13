@@ -12,3 +12,12 @@ os:
 r:
   - release
   - 3.5
+
+after_success:
+  - Rscript -e 'covr::codecov(type = "all")'
+
+deploy:
+  skip-cleanup: true
+  github-token: $h
+  on:
+    branch: master

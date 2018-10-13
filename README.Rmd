@@ -6,6 +6,7 @@ output: github_document
 
 [![Travis build status](https://travis-ci.org/zekott/testrcicd.svg?branch=master)](https://travis-ci.org/zekott/testrcicd)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/zekott/testrcicd?branch=master&svg=true)](https://ci.appveyor.com/project/zekott/testrcicd)
+[![Coverage status](https://codecov.io/gh/zekott/testrcicd/branch/master/graph/badge.svg)](https://codecov.io/github/zekott/testrcicd?branch=master)
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
