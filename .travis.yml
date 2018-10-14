@@ -17,9 +17,8 @@ after_success:
   - Rscript -e 'covr::codecov(type = "all")'
 
 deploy:
-  provider: pages
+  provider: releases
   skip-cleanup: true
-  github-token: $GH_KEY
+  api-key: $GH_KEY
   keep-history: true
-  on:
-    branch: master
+  file: testrcicd_0.1.0.tar.gz
