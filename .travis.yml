@@ -22,4 +22,4 @@ deploy:
   api-key: $GH_KEY
   keep-history: true
   file: testrcicd_0.1.0.tar.gz
-  tag:true
+  tag: false
